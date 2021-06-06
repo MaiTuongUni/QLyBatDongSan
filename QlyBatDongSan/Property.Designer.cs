@@ -38,6 +38,7 @@ namespace QlyBatDongSan.views
             this.btnAddProperty = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.txtAddressProperty = new System.Windows.Forms.TextBox();
             this.txtPriceProperty = new System.Windows.Forms.TextBox();
             this.txtOwnerProperty = new System.Windows.Forms.TextBox();
@@ -55,6 +56,8 @@ namespace QlyBatDongSan.views
             this.txtId = new System.Windows.Forms.TextBox();
 
 =======
+=======
+>>>>>>> parent of 2a18396 (FN interfaces)
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
@@ -62,7 +65,10 @@ namespace QlyBatDongSan.views
             this.button1 = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
+<<<<<<< HEAD
 >>>>>>> parent of 6b47170 (add and update)
+=======
+>>>>>>> parent of 2a18396 (FN interfaces)
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -70,6 +76,7 @@ namespace QlyBatDongSan.views
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
+<<<<<<< HEAD
 <<<<<<< HEAD
 
             this.txtDescriptionProperty = new System.Windows.Forms.TextBox();
@@ -88,6 +95,11 @@ namespace QlyBatDongSan.views
 >>>>>>> parent of 6b47170 (add and update)
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
+=======
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+>>>>>>> parent of 2a18396 (FN interfaces)
             this.checkBox4 = new System.Windows.Forms.CheckBox();
             this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
@@ -102,6 +114,7 @@ namespace QlyBatDongSan.views
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
 <<<<<<< HEAD
+<<<<<<< HEAD
             ((System.ComponentModel.ISupportInitialize)(this.nmAgeOfTheHouse)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nmBathroomProperty)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nmBedroomProperty)).BeginInit();
@@ -113,6 +126,11 @@ namespace QlyBatDongSan.views
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
 >>>>>>> parent of 6b47170 (add and update)
+=======
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+>>>>>>> parent of 2a18396 (FN interfaces)
             this.SuspendLayout();
             // 
             // panel1
@@ -188,6 +206,7 @@ namespace QlyBatDongSan.views
             // 
             this.panel3.BackColor = System.Drawing.Color.Orchid;
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.panel3.Controls.Add(this.txtAddressProperty);
             this.panel3.Controls.Add(this.txtPriceProperty);
             this.panel3.Controls.Add(this.txtOwnerProperty);
@@ -203,6 +222,8 @@ namespace QlyBatDongSan.views
             this.panel3.Controls.Add(this.cbbType);
             this.panel3.Controls.Add(this.txtId);
 =======
+=======
+>>>>>>> parent of 2a18396 (FN interfaces)
             this.panel3.Controls.Add(this.textBox5);
             this.panel3.Controls.Add(this.textBox4);
             this.panel3.Controls.Add(this.textBox3);
@@ -210,7 +231,10 @@ namespace QlyBatDongSan.views
             this.panel3.Controls.Add(this.button1);
             this.panel3.Controls.Add(this.comboBox1);
             this.panel3.Controls.Add(this.textBox1);
+<<<<<<< HEAD
 >>>>>>> parent of 6b47170 (add and update)
+=======
+>>>>>>> parent of 2a18396 (FN interfaces)
             this.panel3.Controls.Add(this.label7);
             this.panel3.Controls.Add(this.label6);
             this.panel3.Controls.Add(this.label5);
@@ -224,54 +248,59 @@ namespace QlyBatDongSan.views
             this.panel3.TabIndex = 2;
             // 
 <<<<<<< HEAD
+<<<<<<< HEAD
             // txtAddressProperty
+=======
+            // textBox5
+>>>>>>> parent of 2a18396 (FN interfaces)
             // 
-            this.txtAddressProperty.Location = new System.Drawing.Point(121, 292);
-            this.txtAddressProperty.Multiline = true;
-            this.txtAddressProperty.Name = "txtAddressProperty";
-            this.txtAddressProperty.Size = new System.Drawing.Size(293, 116);
-            this.txtAddressProperty.TabIndex = 28;
+            this.textBox5.Location = new System.Drawing.Point(121, 292);
+            this.textBox5.Multiline = true;
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(293, 116);
+            this.textBox5.TabIndex = 28;
             // 
-            // txtPriceProperty
+            // textBox4
             // 
-            this.txtPriceProperty.Location = new System.Drawing.Point(121, 242);
-            this.txtPriceProperty.Name = "txtPriceProperty";
-            this.txtPriceProperty.Size = new System.Drawing.Size(293, 22);
-            this.txtPriceProperty.TabIndex = 26;
+            this.textBox4.Location = new System.Drawing.Point(121, 242);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(293, 22);
+            this.textBox4.TabIndex = 26;
             // 
-            // txtOwnerProperty
+            // textBox3
             // 
-            this.txtOwnerProperty.Location = new System.Drawing.Point(121, 190);
-            this.txtOwnerProperty.Name = "txtOwnerProperty";
-            this.txtOwnerProperty.Size = new System.Drawing.Size(293, 22);
-            this.txtOwnerProperty.TabIndex = 27;
+            this.textBox3.Location = new System.Drawing.Point(121, 190);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(293, 22);
+            this.textBox3.TabIndex = 27;
             // 
-            // txtSquareFeetProperty
+            // textBox2
             // 
-            this.txtSquareFeetProperty.Location = new System.Drawing.Point(121, 134);
-            this.txtSquareFeetProperty.Name = "txtSquareFeetProperty";
-            this.txtSquareFeetProperty.Size = new System.Drawing.Size(293, 22);
-            this.txtSquareFeetProperty.TabIndex = 25;
+            this.textBox2.Location = new System.Drawing.Point(121, 134);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(293, 22);
+            this.textBox2.TabIndex = 25;
             // 
-            // btnSearchProperty
+            // button1
             // 
-            this.btnSearchProperty.Location = new System.Drawing.Point(317, 17);
-            this.btnSearchProperty.Name = "btnSearchProperty";
-            this.btnSearchProperty.Size = new System.Drawing.Size(97, 31);
-            this.btnSearchProperty.TabIndex = 24;
-            this.btnSearchProperty.Text = "button1";
-            this.btnSearchProperty.UseVisualStyleBackColor = true;
+            this.button1.Location = new System.Drawing.Point(317, 21);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(97, 23);
+            this.button1.TabIndex = 24;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
             // 
-            // cbTypeProperty
+            // comboBox1
             // 
-            this.cbTypeProperty.FormattingEnabled = true;
-            this.cbTypeProperty.Location = new System.Drawing.Point(121, 75);
-            this.cbTypeProperty.Name = "cbTypeProperty";
-            this.cbTypeProperty.Size = new System.Drawing.Size(293, 24);
-            this.cbTypeProperty.TabIndex = 23;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(121, 75);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(293, 24);
+            this.comboBox1.TabIndex = 23;
             // 
-            // txtIdProperty
+            // textBox1
             // 
+<<<<<<< HEAD
             this.txtIdProperty.Location = new System.Drawing.Point(121, 21);
             this.txtIdProperty.Name = "txtIdProperty";
             this.txtIdProperty.Size = new System.Drawing.Size(190, 22);
@@ -388,11 +417,16 @@ namespace QlyBatDongSan.views
             // 
             // textBox1
             // 
+=======
+>>>>>>> parent of 2a18396 (FN interfaces)
             this.textBox1.Location = new System.Drawing.Point(121, 21);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(190, 22);
             this.textBox1.TabIndex = 22;
+<<<<<<< HEAD
 >>>>>>> parent of 6b47170 (add and update)
+=======
+>>>>>>> parent of 2a18396 (FN interfaces)
             // 
             // label7
             // 
@@ -452,6 +486,7 @@ namespace QlyBatDongSan.views
             // 
             this.panel4.BackColor = System.Drawing.Color.Orchid;
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.panel4.Controls.Add(this.txtDescriptionProperty);
             this.panel4.Controls.Add(this.label10);
             this.panel4.Controls.Add(this.label9);
@@ -468,6 +503,11 @@ namespace QlyBatDongSan.views
 >>>>>>> parent of 6b47170 (add and update)
             this.panel4.Controls.Add(this.label10);
             this.panel4.Controls.Add(this.label9);
+=======
+            this.panel4.Controls.Add(this.textBox6);
+            this.panel4.Controls.Add(this.label10);
+            this.panel4.Controls.Add(this.label9);
+>>>>>>> parent of 2a18396 (FN interfaces)
             this.panel4.Controls.Add(this.checkBox4);
             this.panel4.Controls.Add(this.checkBox3);
             this.panel4.Controls.Add(this.checkBox2);
@@ -484,6 +524,7 @@ namespace QlyBatDongSan.views
             this.panel4.TabIndex = 3;
             // 
 <<<<<<< HEAD
+<<<<<<< HEAD
             // txtDescriptionProperty
             // 
             this.txtDescriptionProperty.Location = new System.Drawing.Point(21, 217);
@@ -496,6 +537,10 @@ namespace QlyBatDongSan.views
             // textBox6
 >>>>>>> parent of 6b47170 (add and update)
             // 
+=======
+            // textBox6
+            // 
+>>>>>>> parent of 2a18396 (FN interfaces)
             this.textBox6.Location = new System.Drawing.Point(21, 217);
             this.textBox6.Multiline = true;
             this.textBox6.Name = "textBox6";
@@ -521,62 +566,67 @@ namespace QlyBatDongSan.views
             this.label9.Text = "Age of the house (*):";
             // 
 <<<<<<< HEAD
+<<<<<<< HEAD
             // chkGarage
+=======
+            // checkBox4
+>>>>>>> parent of 2a18396 (FN interfaces)
             // 
-            this.chkGarage.AutoSize = true;
-            this.chkGarage.Location = new System.Drawing.Point(332, 159);
-            this.chkGarage.Name = "chkGarage";
-            this.chkGarage.Size = new System.Drawing.Size(78, 21);
-            this.chkGarage.TabIndex = 2;
-            this.chkGarage.Text = "Garage";
-            this.chkGarage.UseVisualStyleBackColor = true;
+            this.checkBox4.AutoSize = true;
+            this.checkBox4.Location = new System.Drawing.Point(332, 159);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(78, 21);
+            this.checkBox4.TabIndex = 2;
+            this.checkBox4.Text = "Garage";
+            this.checkBox4.UseVisualStyleBackColor = true;
             // 
-            // chkBackyard
+            // checkBox3
             // 
-            this.chkBackyard.AutoSize = true;
-            this.chkBackyard.Location = new System.Drawing.Point(332, 118);
-            this.chkBackyard.Name = "chkBackyard";
-            this.chkBackyard.Size = new System.Drawing.Size(89, 21);
-            this.chkBackyard.TabIndex = 2;
-            this.chkBackyard.Text = "Backyard";
-            this.chkBackyard.UseVisualStyleBackColor = true;
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.Location = new System.Drawing.Point(332, 118);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(89, 21);
+            this.checkBox3.TabIndex = 2;
+            this.checkBox3.Text = "Backyard";
+            this.checkBox3.UseVisualStyleBackColor = true;
             // 
-            // chkPool
+            // checkBox2
             // 
-            this.chkPool.AutoSize = true;
-            this.chkPool.Location = new System.Drawing.Point(332, 71);
-            this.chkPool.Name = "chkPool";
-            this.chkPool.Size = new System.Drawing.Size(58, 21);
-            this.chkPool.TabIndex = 2;
-            this.chkPool.Text = "Pool";
-            this.chkPool.UseVisualStyleBackColor = true;
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Location = new System.Drawing.Point(332, 71);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(58, 21);
+            this.checkBox2.TabIndex = 2;
+            this.checkBox2.Text = "Pool";
+            this.checkBox2.UseVisualStyleBackColor = true;
             // 
-            // chkBalcony
+            // checkBox1
             // 
-            this.chkBalcony.AutoSize = true;
-            this.chkBalcony.Location = new System.Drawing.Point(332, 20);
-            this.chkBalcony.Name = "chkBalcony";
-            this.chkBalcony.Size = new System.Drawing.Size(80, 21);
-            this.chkBalcony.TabIndex = 2;
-            this.chkBalcony.Text = "Balcony";
-            this.chkBalcony.UseVisualStyleBackColor = true;
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(332, 20);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(80, 21);
+            this.checkBox1.TabIndex = 2;
+            this.checkBox1.Text = "Balcony";
+            this.checkBox1.UseVisualStyleBackColor = true;
             // 
-            // nmAgeOfTheHouse
+            // numericUpDown3
             // 
-            this.nmAgeOfTheHouse.Location = new System.Drawing.Point(163, 116);
-            this.nmAgeOfTheHouse.Name = "nmAgeOfTheHouse";
-            this.nmAgeOfTheHouse.Size = new System.Drawing.Size(139, 22);
-            this.nmAgeOfTheHouse.TabIndex = 1;
+            this.numericUpDown3.Location = new System.Drawing.Point(163, 116);
+            this.numericUpDown3.Name = "numericUpDown3";
+            this.numericUpDown3.Size = new System.Drawing.Size(139, 22);
+            this.numericUpDown3.TabIndex = 1;
             // 
-            // nmBathroomProperty
+            // numericUpDown2
             // 
-            this.nmBathroomProperty.Location = new System.Drawing.Point(163, 70);
-            this.nmBathroomProperty.Name = "nmBathroomProperty";
-            this.nmBathroomProperty.Size = new System.Drawing.Size(139, 22);
-            this.nmBathroomProperty.TabIndex = 1;
+            this.numericUpDown2.Location = new System.Drawing.Point(163, 70);
+            this.numericUpDown2.Name = "numericUpDown2";
+            this.numericUpDown2.Size = new System.Drawing.Size(139, 22);
+            this.numericUpDown2.TabIndex = 1;
             // 
-            // nmBedroomProperty
+            // numericUpDown1
             // 
+<<<<<<< HEAD
             this.nmBedroomProperty.Location = new System.Drawing.Point(163, 19);
             this.nmBedroomProperty.Name = "nmBedroomProperty";
             this.nmBedroomProperty.Size = new System.Drawing.Size(139, 22);
@@ -705,11 +755,16 @@ namespace QlyBatDongSan.views
             // 
             // numericUpDown1
             // 
+=======
+>>>>>>> parent of 2a18396 (FN interfaces)
             this.numericUpDown1.Location = new System.Drawing.Point(163, 19);
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(139, 22);
             this.numericUpDown1.TabIndex = 1;
+<<<<<<< HEAD
 >>>>>>> parent of 6b47170 (add and update)
+=======
+>>>>>>> parent of 2a18396 (FN interfaces)
             // 
             // label8
             // 
@@ -749,6 +804,7 @@ namespace QlyBatDongSan.views
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
 <<<<<<< HEAD
+<<<<<<< HEAD
             ((System.ComponentModel.ISupportInitialize)(this.nmAgeOfTheHouse)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nmBathroomProperty)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nmBedroomProperty)).EndInit();
@@ -760,6 +816,11 @@ namespace QlyBatDongSan.views
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
 >>>>>>> parent of 6b47170 (add and update)
+=======
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+>>>>>>> parent of 2a18396 (FN interfaces)
             this.ResumeLayout(false);
 
         }
@@ -769,6 +830,7 @@ namespace QlyBatDongSan.views
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
+<<<<<<< HEAD
 <<<<<<< HEAD
         private System.Windows.Forms.TextBox txtAddressProperty;
         private System.Windows.Forms.TextBox txtPriceProperty;
@@ -785,6 +847,8 @@ namespace QlyBatDongSan.views
         private System.Windows.Forms.ComboBox cbbType;
         private System.Windows.Forms.TextBox txtId;
 =======
+=======
+>>>>>>> parent of 2a18396 (FN interfaces)
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox3;
@@ -792,7 +856,10 @@ namespace QlyBatDongSan.views
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.TextBox textBox1;
+<<<<<<< HEAD
 >>>>>>> parent of 6b47170 (add and update)
+=======
+>>>>>>> parent of 2a18396 (FN interfaces)
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
@@ -801,18 +868,23 @@ namespace QlyBatDongSan.views
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel4;
 <<<<<<< HEAD
+<<<<<<< HEAD
         private System.Windows.Forms.TextBox txtDescriptionProperty;
+=======
+        private System.Windows.Forms.TextBox textBox6;
+>>>>>>> parent of 2a18396 (FN interfaces)
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.CheckBox chkBackyard;
-        private System.Windows.Forms.CheckBox chkPool;
-        private System.Windows.Forms.CheckBox chkBalcony;
-        private System.Windows.Forms.NumericUpDown nmAgeOfTheHouse;
-        private System.Windows.Forms.NumericUpDown nmBathroomProperty;
-        private System.Windows.Forms.NumericUpDown nmBedroomProperty;
+        private System.Windows.Forms.CheckBox checkBox3;
+        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.NumericUpDown numericUpDown3;
+        private System.Windows.Forms.NumericUpDown numericUpDown2;
+        private System.Windows.Forms.NumericUpDown numericUpDown1;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label11;
+<<<<<<< HEAD
         private System.Windows.Forms.CheckBox chkGarage;
         private System.Windows.Forms.TextBox txtDescription;
 =======
@@ -829,6 +901,8 @@ namespace QlyBatDongSan.views
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label11;
+=======
+>>>>>>> parent of 2a18396 (FN interfaces)
         private System.Windows.Forms.CheckBox checkBox4;
         private System.Windows.Forms.Button btnShowProperty;
         private System.Windows.Forms.Button btnRemoveProperty;
