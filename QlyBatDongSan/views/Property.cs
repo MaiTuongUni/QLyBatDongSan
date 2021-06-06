@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace QlyBatDongSan.views
 {
-    public partial class HomePage : Form
+    public partial class Property : Form
     {
-        public HomePage()
+        public Property()
         {
             InitializeComponent();
-        }
-
-        private void panel3_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

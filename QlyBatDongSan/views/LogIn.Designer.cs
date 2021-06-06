@@ -150,7 +150,7 @@ namespace QlyBatDongSan.views
             this.ClientSize = new System.Drawing.Size(800, 492);
             this.Controls.Add(this.panel1);
             this.Name = "LogIn";
-            this.Text = "LogIn";
+            this.Text = "Log In";
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
