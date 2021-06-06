@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace QlyBatDongSan.views
 {
-    public partial class DangNhap : Form
+    public partial class LogIn : Form
     {
-        public DangNhap()
+        public LogIn()
         {
             InitializeComponent();
         }
