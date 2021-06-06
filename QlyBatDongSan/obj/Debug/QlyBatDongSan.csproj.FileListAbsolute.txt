@@ -1,0 +1,13 @@
+D:\Java\C#\QLyBatDongSan\QlyBatDongSan\bin\Debug\QlyBatDongSan.exe.config
+D:\Java\C#\QLyBatDongSan\QlyBatDongSan\bin\Debug\QlyBatDongSan.exe
+D:\Java\C#\QLyBatDongSan\QlyBatDongSan\bin\Debug\QlyBatDongSan.pdb
+D:\Java\C#\QLyBatDongSan\QlyBatDongSan\obj\Debug\QlyBatDongSan.csproj.AssemblyReference.cache
+D:\Java\C#\QLyBatDongSan\QlyBatDongSan\obj\Debug\QlyBatDongSan.Properties.Resources.resources
+D:\Java\C#\QLyBatDongSan\QlyBatDongSan\obj\Debug\QlyBatDongSan.csproj.GenerateResource.cache
+D:\Java\C#\QLyBatDongSan\QlyBatDongSan\obj\Debug\QlyBatDongSan.csproj.CoreCompileInputs.cache
+D:\Java\C#\QLyBatDongSan\QlyBatDongSan\obj\Debug\QlyBatDongSan.exe
+D:\Java\C#\QLyBatDongSan\QlyBatDongSan\obj\Debug\QlyBatDongSan.pdb
+D:\Java\C#\QLyBatDongSan\QlyBatDongSan\obj\Debug\QlyBatDongSan.Form1.resources
+D:\Java\C#\QLyBatDongSan\QlyBatDongSan\obj\Debug\QlyBatDongSan.LogIn.resources
+D:\Java\C#\QLyBatDongSan\QlyBatDongSan\obj\Debug\QlyBatDongSan.HomePage.resources
+D:\Java\C#\QLyBatDongSan\QlyBatDongSan\obj\Debug\QlyBatDongSan.Property.resources

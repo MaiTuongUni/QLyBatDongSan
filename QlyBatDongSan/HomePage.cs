@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace QlyBatDongSan.views
+namespace QlyBatDongSan
 {
     public partial class HomePage : Form
     {
@@ -17,14 +17,10 @@ namespace QlyBatDongSan.views
             InitializeComponent();
         }
 
-        private void panel3_Paint(object sender, PaintEventArgs e)
+        private void btnProperty_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
+            Form propertyForm = new Property();
+            propertyForm.ShowDialog();
         }
     }
 }

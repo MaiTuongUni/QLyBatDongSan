@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace QlyBatDongSan.database
+namespace QlyBatDongSan
 {
     class DataBase
     {
@@ -59,7 +59,7 @@ namespace QlyBatDongSan.database
             return f;
         }
 
-        public bool CheckLogin(string sql, CommandType ct, ref string error)
+        public bool CheckLogin(string sql, CommandType ct)
         {
             bool f = false;
             if (conn.State == ConnectionState.Open)
@@ -69,15 +69,15 @@ namespace QlyBatDongSan.database
             comm.CommandType = ct;
             try
             {
-                int k = Int32.Parse(comm.ExecuteScalar().ToString());
+                int k =Int32.Parse(comm.ExecuteScalar().ToString());
                 if (k > 0)
                 {
                     f = true;
                 }
             }
-            catch (SqlException ex)
+            catch (System.NullReferenceException ex)
             {
-                error = ex.Message;
+                return false;
             }
             finally
             {
