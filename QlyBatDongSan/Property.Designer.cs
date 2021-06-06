@@ -57,6 +57,14 @@ namespace QlyBatDongSan.views
             this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.label10 = new System.Windows.Forms.Label();
             this.textBox6 = new System.Windows.Forms.TextBox();
+            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
@@ -66,6 +74,8 @@ namespace QlyBatDongSan.views
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.Magenta;
+            this.panel1.Controls.Add(this.label11);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
@@ -74,6 +84,11 @@ namespace QlyBatDongSan.views
             // 
             // panel2
             // 
+            this.panel2.BackColor = System.Drawing.Color.Orchid;
+            this.panel2.Controls.Add(this.button5);
+            this.panel2.Controls.Add(this.button4);
+            this.panel2.Controls.Add(this.button3);
+            this.panel2.Controls.Add(this.button2);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel2.Location = new System.Drawing.Point(0, 533);
             this.panel2.Name = "panel2";
@@ -82,6 +97,7 @@ namespace QlyBatDongSan.views
             // 
             // panel3
             // 
+            this.panel3.BackColor = System.Drawing.Color.Orchid;
             this.panel3.Controls.Add(this.textBox5);
             this.panel3.Controls.Add(this.textBox4);
             this.panel3.Controls.Add(this.textBox3);
@@ -103,9 +119,11 @@ namespace QlyBatDongSan.views
             // 
             // panel4
             // 
+            this.panel4.BackColor = System.Drawing.Color.Orchid;
             this.panel4.Controls.Add(this.textBox6);
             this.panel4.Controls.Add(this.label10);
             this.panel4.Controls.Add(this.label9);
+            this.panel4.Controls.Add(this.checkBox4);
             this.panel4.Controls.Add(this.checkBox3);
             this.panel4.Controls.Add(this.checkBox2);
             this.panel4.Controls.Add(this.checkBox1);
@@ -322,6 +340,62 @@ namespace QlyBatDongSan.views
             this.textBox6.Size = new System.Drawing.Size(400, 191);
             this.textBox6.TabIndex = 28;
             // 
+            // checkBox4
+            // 
+            this.checkBox4.AutoSize = true;
+            this.checkBox4.Location = new System.Drawing.Point(332, 159);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(78, 21);
+            this.checkBox4.TabIndex = 2;
+            this.checkBox4.Text = "Garage";
+            this.checkBox4.UseVisualStyleBackColor = true;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(421, 17);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(153, 39);
+            this.label11.TabIndex = 0;
+            this.label11.Text = "Property";
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(88, 26);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(121, 58);
+            this.button2.TabIndex = 0;
+            this.button2.Text = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(297, 26);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(121, 58);
+            this.button3.TabIndex = 0;
+            this.button3.Text = "button2";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(508, 26);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(121, 58);
+            this.button4.TabIndex = 0;
+            this.button4.Text = "button2";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(738, 26);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(121, 58);
+            this.button5.TabIndex = 0;
+            this.button5.Text = "button2";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
             // Property
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -333,6 +407,9 @@ namespace QlyBatDongSan.views
             this.Controls.Add(this.panel1);
             this.Name = "Property";
             this.Text = "Property";
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.panel4.ResumeLayout(false);
@@ -374,5 +451,11 @@ namespace QlyBatDongSan.views
         private System.Windows.Forms.NumericUpDown numericUpDown1;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.CheckBox checkBox4;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
     }
 }
