@@ -16,5 +16,10 @@ namespace QlyBatDongSan.views
         {
             InitializeComponent();
         }
+
+        private void Property_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
